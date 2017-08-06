@@ -41,7 +41,7 @@ src   //源文件
 
 - 完成函数后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
 ```
- git remote set-url origin my_url
+my_url
 ```
 - 请使用**git提交(commit)**并**上传(push)**，之后将此github仓库地址(用户自建的) eg:（https://github.com/username/repo） 填入到提交地址一栏 
 - 获取分支
