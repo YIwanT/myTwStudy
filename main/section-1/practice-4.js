@@ -1,5 +1,20 @@
 'use strict';
 
 module.exports = function collectSameElements(collectionA, objectB) {
-  return '实现练习要求，并改写该行代码。';
+let result = [];
+
+function include (collection, ch){
+    for (let item of collection ){
+        if (item === ch ){
+            return true ;
+        }
+    }
+    return false ;
+}
+for (let item of collectionA){
+    if (include(objectB.value, item.key)){
+        result.push(item.key);
+    }
+}
+return result ;
 }
